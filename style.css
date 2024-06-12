@@ -1,4 +1,4 @@
-﻿    /* Import fonts */
+    /* Import fonts */
     @font-face {
         font-family: BP Dots Plus;
         src: url("https://cdn.glitch.global/b0c32e8f-e870-4f19-b91f-84cbe82439c5/BPdotsPlusBold.otf?v=1654527130880") format("opentype");
@@ -10,7 +10,9 @@ body {
     padding: 0.5em;
     font-family: 'Gentium Basic';
     height: 100%;
-}
+     background: snow; 
+    /*   background: mintcream; */
+
 
 .container {
     display: flex;
@@ -113,29 +115,32 @@ main {
 }
 
 h1 {
-    font-family: BP Dots Plus;
+    //font-family: BP Dots Plus;
+    font-family: Gentium basic;
     margin-bottom: 1em;
-    font-size: 4.5vw;
+    font-size: 3.1vw;
     font-weight: normal;
+    text-align: left;
     /* text-align: justify;*/
     /*text-shadow: 0px 0px 10px red;*/
-}   
+}
 
 h2 {
     font-family: Gentium basic;
     margin-bottom: 0.3em;
-    font-size: 2.9vw;
-    font-weight: bold;
+    font-size: 2.3vw;
+    font-weight: 600;
+    //font-weight: normal;
     text-align: justify;
     /*   text-shadow: 0px 0px 8px red; */
 }
 
 h3 {
-    font-family: BP Dots Plus;
+    font-family: Gentium basic;
     margin-bottom: 1em;
-    font-size: 1.6em;
+    font-size: 2.7vw;
     font-weight: normal;
-    text-align: right;
+    text-align: left;
 }
 
 h4 {
