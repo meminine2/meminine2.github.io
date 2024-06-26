@@ -5,7 +5,7 @@
     }
 
 body {
-    font-size: 1.2vw;
+    font-size: 16px;
     text-align: justify;
     padding: 0.5em;
     font-family: 'Gentium Basic';
@@ -118,7 +118,7 @@ h1 {
     //font-family: BP Dots Plus;
     font-family: Gentium basic;
     margin-bottom: 1em;
-    font-size: 3.1vw;
+    font-size: 42px;
     font-weight: normal;
     text-align: left;
     /* text-align: justify;*/
@@ -128,7 +128,7 @@ h1 {
 h2 {
     font-family: Gentium basic;
     margin-bottom: 0.3em;
-    font-size: 2.3vw;
+    font-size: 18px;
     font-weight: 600;
     //font-weight: normal;
     text-align: justify;
@@ -138,7 +138,7 @@ h2 {
 h3 {
     font-family: Gentium basic;
     margin-bottom: 1em;
-    font-size: 2.7vw;
+    font-size: 18px;
     font-weight: normal;
     text-align: left;
 }
