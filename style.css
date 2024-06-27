@@ -33,13 +33,21 @@ body {
     background: linear-gradient( 0deg, rgba(143, 23, 35, 0) 0%, rgba(143, 23, 35, 0.7) 100% );
 }
 
+img {
+  position: absolute;
+  left: 0px;
+  top: 820px;
+  z-index: -1;
+}
+
 .mainimg img {
-    margin-top: 10vh;
+    margin-top: -40vh;
     margin-bottom: 3vh;
-    margin-left: 3vh;
-    margin-right: 3vh;
-    align: centre;
-    max-height: 100vh;
+    margin-left: 50vw;
+/*     margin-right: 0vh; */
+    align: center;
+    height: 400px;
+    z-index: 2;
 }
 
 .headwork {
