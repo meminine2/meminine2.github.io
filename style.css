@@ -1,222 +1,55 @@
-    /* Import fonts */
-    @font-face {
-        font-family: BP Dots Plus;
-        src: url("https://cdn.glitch.global/b0c32e8f-e870-4f19-b91f-84cbe82439c5/BPdotsPlusBold.otf?v=1654527130880") format("opentype");
-    }
-
-body {
-    font-size: 16px;
-    text-align: justify;
-    padding: 0.5em;
-    font-family: 'Gentium Basic';
-    height: 100%;
-     background: snow; 
-    /*   background: mintcream; */
-
-
-.container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    background: linear-gradient( 0deg, rgba(127, 127, 127, 1) 0%, rgba(162, 162, 162, 1) 19%, rgba(204, 204, 204, 1) 93%, rgba(255, 140, 140, 1) 100% );
+/* Import fonts */
+@font-face {
+  font-family: BP Dots Plus;
+  src: url("https://cdn.glitch.global/b0c32e8f-e870-4f19-b91f-84cbe82439c5/BPdotsPlusBold.otf?v=1654527130880")
+    format("opentype");
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.header {
-    text-align: center;
-    padding: 10 px;
-    postition: fixed;
-    z-index: 1;
-    background: linear-gradient( 0deg, rgba(143, 23, 35, 0) 0%, rgba(143, 23, 35, 0.7) 100% );
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 img {
-  position: absolute;
-  left: 0px;
+  position: relative;
+  max-width: 50vw;
+  /*   left: 0px;
   top: 850px;
-  z-index: -1;
+  z-index: -1; */
 }
 
-.mainimg img {
-    margin-top: -40vh;
-    margin-bottom: 3vh;
-    margin-left: 50vw;
-/*     margin-right: 0vh; */
-    align: center;
-    height: 400px;
-    z-index: 2;
-}
-
-.headwork {
-    font-size: 6em;
-    text-align: center;
-}
-
-.headabout {
-    position: absolute;
-    left: 1em;
-    padding: 1em;
-    font-size: 6em;
-}
-
-.headlinks {
-    position: absolute;
-    right: 1em;
-    padding: 1em;
-    font-size: 6em;
-}
-
-.line-1 {
-    border-top: 1px solid black;
-}
-
-.row {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-    -ms-flex: 30%; /* IE10 */
-    flex: 33%;
-    max-width: 33%;
-    padding: 0 4px;
-}
-
-    .column img {
-        margin-top: 35px;
-        vertical-align: middle;
-        width: 100%;
-        height: calc(100vh - 10px);
-        border-radius: 5px;
-    }
-
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .column {
-        -ms-flex: 50%;
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-    .column {
-        -ms-flex: 100%;
-        flex: 100%;
-        max-width: 100%;
-    }
-}
-
-main {
-    flex: 1;
-    padding: 20px;
-    height: 100%;
+body {
+  font-size: 16px;
+  text-align: justify;
+  padding: 0.5em;
+  font-family: "Gentium Basic";
 }
 
 h1 {
-    //font-family: BP Dots Plus;
+  font-family: Gentium basic;
+  margin-bottom: 1em;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: left;
+}
+
+h2{
+  h2 {
     font-family: Gentium basic;
-    margin-bottom: 1em;
-    font-size: 42px;
-    font-weight: normal;
-    text-align: left;
-    /* text-align: justify;*/
-    /*text-shadow: 0px 0px 10px red;*/
-}
-
-h2 {
-    font-family: Gentium basic;
-    margin-bottom: 0.3em;
-    font-size: 18px;
-    font-weight: 600;
-    //font-weight: normal;
-    text-align: justify;
-    /*   text-shadow: 0px 0px 8px red; */
-}
-
-h3 {
-    font-family: Gentium basic;
-    margin-bottom: 1em;
-    font-size: 18px;
-    font-weight: normal;
-    text-align: left;
-}
-
-h4 {
-    font-family: Arial;
-    margin-bottom: 1em;
-    font-size: 1.2em;
-    font-weight: normal;
-    text-align: justify;
-}
-
-a:link {
-    text-decoration: none;
-    color: black;
-}
-
-a:hover {
-    text-shadow: 0px 0px 10px red;
-}
-
-a:active {
-    text-decoration: none;
-    color: red;
-}
-
-/*_______________________flex-boxðŸ’«*/
-.hero {
-    display: -webkit-box;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-direction: normal;
-    -moz-box-direction: normal;
-    -webkit-box-orient: horizontal;
-    -moz-box-orient: horizontal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-box-pack: center;
-    -moz-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-align-content: stretch;
-    -ms-flex-line-pack: stretch;
-    align-content: stretch;
-    -webkit-box-align: center;
-    -moz-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-}
-
-.hero_heading p {
+/*     margin-top: 40px; */
     font-size: 16px;
-    color: black;
-    /*text-shadow: 2px 2px 15px green;*/
-    max-width: 500px;
-    text-align: justify;
-}
-/*_______________________flex-box«*/
-
-/* The sticky class is added to the header with JS when it reaches its scroll position */
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
