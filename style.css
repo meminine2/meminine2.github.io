@@ -1,11 +1,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 /* Import fonts */
-@font-face {
+/* @font-face {
   font-family: BP Dots Plus;
   src: url("https://cdn.glitch.global/b0c32e8f-e870-4f19-b91f-84cbe82439c5/BPdotsPlusBold.otf?v=1654527130880")
     format("opentype");
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -31,11 +31,11 @@
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media all and (max-width: 1000px) {
+/* @media all and (max-width: 1000px) {
     .column {
         width: 100%;
     }
-}
+} */
 
 /* Clear floats after the columns */
 .row:after {
@@ -75,4 +75,13 @@ h2{
     font-size: 16px;
     font-weight: normal;
 }
+
+@media screen and (max-width: 400px) {
+  body {
+    font-size: 14px;
+    overflow: auto;
+
+  }
+}
+
 
