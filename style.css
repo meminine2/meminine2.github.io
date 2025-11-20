@@ -78,10 +78,11 @@ h2{
 
 @media screen and (max-width: 400px) {
   body {
-    font-size: 14px;
+    font-size: 14em;
     overflow: auto;
 
   }
 }
+
 
 
