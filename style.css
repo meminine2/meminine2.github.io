@@ -4,11 +4,11 @@
 }
 
 /* Create two equal columns that floats next to each other */
-.column {
+/* .column {
   float: left;
   width: 50%;
   padding: 10px;
-}
+} */
 
 .column1 {
   float: left;
@@ -23,8 +23,14 @@
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media all and (max-width: 1000px) {
-    .column {
+@media all and (max-width: 400px) {
+    /* .column {
+        width: 100%;
+    } */
+      .column1 {
+        width: 100%;
+    }
+      .column2 {
         width: 100%;
     }
 }
@@ -45,7 +51,7 @@ img {
 }
 
 body {
-  font-size: 90%;
+  font-size: 1rem;
   text-align: left;
   padding: 0.5em;
 /*   font-family: "Gentium Basic"; */
@@ -75,8 +81,9 @@ a {
 
 @media screen and (max-width: 400px) {
   body {
-    font-size: 14em;
+    /* font-size: 14em; */
     overflow: auto;
 
   }
 }
+
