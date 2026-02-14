@@ -1,11 +1,3 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-/* Import fonts */
-/* @font-face {
-  font-family: BP Dots Plus;
-  src: url("https://cdn.glitch.global/b0c32e8f-e870-4f19-b91f-84cbe82439c5/BPdotsPlusBold.otf?v=1654527130880")
-    format("opentype");
-} */
 
 * {
   box-sizing: border-box;
@@ -53,27 +45,32 @@ img {
 }
 
 body {
-  font-size: 11px;
+  font-size: 90%;
   text-align: left;
   padding: 0.5em;
 /*   font-family: "Gentium Basic"; */
   font-family: verdana;
-  color: maroon;
+  color: black;
 }
 
 h1 {
-  font-family: Times;
+  font-family: times;
   margin-bottom: 1em;
-  font-size: 30px;
-  font-weight: semi-bold;
+  font-size: 1.4rem;
   text-align: left;
   color: maroon;
+  font-weight: normal;
 }
 
 h2{
     font-family: verdana;
-    font-size: 16px;
+    font-size: 1.4rem;
     font-weight: normal;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 400px) {
@@ -83,7 +80,3 @@ h2{
 
   }
 }
-
-
-
-
