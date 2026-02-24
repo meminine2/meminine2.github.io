@@ -51,7 +51,7 @@ img {
 }
 
 body {
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   text-align: left;
   padding: 0.5em;
 /*   font-family: "Gentium Basic"; */
@@ -62,7 +62,7 @@ body {
 h1 {
   font-family: times;
   margin-bottom: 1em;
-  font-size: 1.4rem;
+  font-size: 1rem;
   text-align: left;
   color: maroon;
   font-weight: normal;
@@ -81,10 +81,10 @@ a {
 
 @media screen and (max-width: 400px) {
   body {
-    /* font-size: 14em; */
     overflow: auto;
 
   }
 }
+
 
 
