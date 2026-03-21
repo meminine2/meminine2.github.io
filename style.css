@@ -19,6 +19,8 @@
 @media all and (max-width: 1000px) {
     .column1 {
         width: 100%;
+        padding: 10px;
+
     }
       .column2 {
         width: 100%;
