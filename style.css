@@ -6,21 +6,20 @@
 .column1 {
   float: left;
   width: 30%;
-  padding: 10px;
+  padding: 1em;
 }
 
 .column2 {
   float: left;
   width: 70%;
-  padding: 10px;
+  padding: 1em;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media all and (max-width: 1000px) {
     .column1 {
         width: 100%;
-        padding: 10px;
-
+        padding: 1em;
     }
 }
 
