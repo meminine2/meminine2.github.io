@@ -21,6 +21,10 @@
         width: 100%;
         padding: 1em;
     }
+      .column2 {
+        visibility: hidden;
+
+    }
 }
 
 /* Clear floats after the columns */
