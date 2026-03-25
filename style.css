@@ -25,6 +25,8 @@
         visibility: hidden;
 
     }
+  .body{
+      font-size: 0.9rem;
 }
 
 /* Clear floats after the columns */
