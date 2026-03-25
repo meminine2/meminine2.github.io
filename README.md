@@ -1,2 +1,2 @@
-Catherine Chapman</br>
-Portfolio site       
+Catherine Chapman</br></br>
+Artwork portfolio
