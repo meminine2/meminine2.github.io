@@ -1,7 +1,2 @@
-
-This is my personal portfolio website<br/>
-───────✧❁✧───────
-
-
-
-        
+Catherine Chapman</br>
+Portfolio site       
