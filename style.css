@@ -14,13 +14,16 @@
 }
 
 /* Project page */
-.column3 {
+.column {
   float: left;
   width: 50%;
 }
 
 @media all and (max-width: 1000px) {
     .column1 {
+        width: 100%;
+    }
+      .column {
         width: 100%;
     }
       .column2 {
