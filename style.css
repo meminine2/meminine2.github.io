@@ -6,24 +6,25 @@
 .column1 {
   float: left;
   width: 30%;
+  padding: 1em;
 }
 
 .column2 {
   float: left;
   width: 70%;
+  padding: 1em;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media all and (max-width: 1000px) {
     .column1 {
         width: 100%;
+        padding: 1em;
     }
       .column2 {
         visibility: hidden;
 
     }
-  .body{
-      font-size: 0.9rem;
 }
 
 /* Clear floats after the columns */
@@ -46,16 +47,16 @@ body {
   text-align: left;
   padding: 1em;
   font-family: verdana;
-  color: #4d0000;
+  color: maroon;
 }
 
 h1 {
   font-family: times;
   margin-top: 1.8rem;
-  margin-bottom: 1.2rem;
+  margin-bottom: 2.5rem;
   font-size: 1.4rem;
   text-align: left;
-  color: #4d0000;
+  color: maroon;
   font-weight: normal;
 }
 
@@ -66,18 +67,12 @@ h2{
     margin-bottom: 1rem;
 }
 
-  h3{
-    font-family: times;
-    font-size: 1rem;
-    font-weight: normal;
-    margin-bottom: 1rem;
-}
-
-/* h3{
+h3{
     font-family: verdana;
     font-weight: bold;
     color: maroon;
-} */
+
+}
 
 a {
   color: maroon;
