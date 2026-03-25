@@ -46,7 +46,7 @@ body {
   text-align: left;
   padding: 1em;
   font-family: verdana;
-  color: maroon;
+  color: #4d0000;
 }
 
 h1 {
@@ -55,7 +55,7 @@ h1 {
   margin-bottom: 1.2rem;
   font-size: 1.4rem;
   text-align: left;
-  color: maroon;
+  color: #4d0000;
   font-weight: normal;
 }
 
@@ -66,11 +66,18 @@ h2{
     margin-bottom: 1rem;
 }
 
-h3{
+  h3{
+    font-family: times;
+    font-size: 1rem;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+/* h3{
     font-family: verdana;
     font-weight: bold;
     color: maroon;
-}
+} */
 
 a {
   color: maroon;
